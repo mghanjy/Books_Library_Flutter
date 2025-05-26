@@ -38,7 +38,7 @@ class _SplashViewbobyState extends State<SplashViewboby>
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         Image.asset(AssetsData.logo),
-        const SizedBox(height: 10),
+
         SlidingText(slidingAnimation: slidingAnimation),
       ],
     );
